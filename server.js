@@ -5,11 +5,9 @@ const helmet = require('helmet');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-// Middleware для обработки JSON
 app.use(express.json());
 app.use(helmet());
 
-// Swagger опции
 const options = {
   definition: {
     openapi: '3.0.0',
@@ -24,7 +22,7 @@ const options = {
       },
     ],
   },
-  apis: ['./server.js'], // файлы, содержащие аннотации swagger
+  apis: ['./server.js'],
 };
 
 const specs = swaggerJsdoc(options);
@@ -98,14 +96,14 @@ app.get('/api/data', (req, res) => {
   res.json(data);
 });
 
-// Обработка 404 ошибок
 app.use((req, res) => {
   res.status(404).send('<h1>404 - Страница не найдена</h1><p>Запрашиваемая страница не существует.</p>');
 });
 
-// Запуск сервера
-app.listen(PORT, () => {
-  console.log(`Сервер запущен на порту ${PORT}`);
-});
+if (require.main === module) {
+  app.listen(PORT, () => {
+    console.log(`Сервер запущен на порту ${PORT}`);
+  });
+}
 
 module.exports = app;
