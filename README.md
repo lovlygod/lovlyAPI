@@ -59,7 +59,7 @@ Server will be available at `http://localhost:3000`
 
 ## Public server
 
-Public version of the server is hosted at [https://lovlyapi.onrender.com](https://lovlyapi.onrender.com) (link will be active after deployment)
+Public version of the server is hosted at [https://lovlyapi.onrender.com](https://lovlyapi.onrender.com)
 
 ## Requirements
 

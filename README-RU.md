@@ -59,7 +59,7 @@ npm start
 
 ## Публичный сервер
 
-Публичная версия сервера размещена на [https://lovlyapi.onrender.com](https://lovlyapi.onrender.com) (ссылка будет активна после деплоя)
+Публичная версия сервера размещена на [https://lovlyapi.onrender.com](https://lovlyapi.onrender.com)
 
 ## Requirements
 
