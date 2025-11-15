@@ -1,68 +1,78 @@
-# lovlyAPI
+<div align="center">
 
-Публичный Node.js сервер с простым REST API и веб-интерфейсом, который демонстрирует навыки бэкенд-разработки и может использоваться посетителями портфолио.
+<h1 style="margin-top: 24px;">lovlyAPI</h1>
 
-## Описание
+<p style="font-size: 18px; margin-bottom: 24px;">
+  <b>Public Node.js server with simple REST API and web interface that demonstrates backend development skills and can be used by portfolio visitors.</b>
+</p>
 
-Этот сервер реализован на Node.js с использованием Express и предоставляет простое REST API для демонстрации навыков бэкенд-разработки. Проект включает веб-интерфейс и JSON API, что делает его подходящим для портфолио разработчика.
+[Report Bug](https://github.com/lovlygod/lovlyAPI/issues) · [Request Feature](https://github.com/lovlygod/lovlyAPI/issues)
 
-## Маршруты
+</div>
 
-- `/` — главная страница с приветствием
-- `/about` — информация о проекте
-- `/api/data` — REST API, возвращает JSON с примером данных
-- Любой другой маршрут возвращает 404 ошибку
+---
 
-## Пример API ответа
+## ✨ Features
 
+- 🚀 **Node.js server** - implemented on Node.js using Express
+- 🌐 **Web interface** - main page with greeting and project information
+- 📡 **REST API** - provides JSON API to demonstrate backend development skills
+- 📄 **JSON API** - returns example data in JSON format
+
+## 🚀 Quick Start
+
+### 1. Installation
+
+```bash
+git clone https://github.com/lovlygod/lovlyAPI.git
+cd lovlyAPI
+npm install
 ```
+
+### 2. Usage
+
+#### Run the server
+
+```bash
+npm start
+```
+
+Server will be available at `http://localhost:3000`
+
+### Endpoints
+
+| Endpoint          | Method                          | Description             |
+| ------------------ | ------------------------------- | ---------------------- |
+| **`/`**      | `GET`   | Main page with greeting |
+| **`/about`**   | `GET` | Project information  |
+| **`/api/data`** | `GET`   | REST API, returns JSON with example data  |
+| **Any other route** | `GET` | Returns 404 error |
+
+## Example API response
+
+```json
 [
   { "id": 1, "name": "Alice", "role": "Admin" },
   { "id": 2, "name": "Bob", "role": "User" }
 ]
 ```
 
-## Установка и запуск
+## Public server
 
-1. Клонируйте репозиторий:
-```bash
-git clone <URL_РЕПОЗИТОРИЯ>
-```
+Public version of the server is hosted at [https://lovlyapi.onrender.com](https://lovlyapi.onrender.com) (link will be active after deployment)
 
-2. Установите зависимости:
-```bash
-npm install
-```
+## Requirements
 
-3. Запустите сервер:
-```bash
-npm start
-```
+- Node.js >= 18
+- npm
 
-Сервер будет доступен по адресу `http://localhost:3000`
+## License
+[MIT](LICENSE)
 
-## Публичный сервер
+<div align="center">
 
-Публичная версия сервера размещена на [https://lovlyapi.onrender.com](https://lovlyapi.onrender.com) (ссылка будет активна после деплоя)
+### Made with ❤️ by [@lovly](https://t.me/lovlyswag)
 
-## Технологии
+**Star ⭐ this repo if you found it useful!**
 
-- Node.js
-- Express
-- JSON
-- Git/GitHub
-
-## Структура проекта
-
-```
-my-server/
-│
-├─ server.js
-├─ package.json
-├─ .gitignore
-└─ README.md
-```
-
-## Лицензия
-
-MIT
+</div>
