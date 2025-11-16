@@ -44,8 +44,10 @@ Server will be available at `http://localhost:3000`
 | Endpoint          | Method                          | Description             |
 | ------------------ | ------------------------------- | ---------------------- |
 | **`/`**      | `GET`   | Main page with greeting |
-| **`/about`**   | `GET` | Project information  |
+| **`/about`**   | `GET` | Project information |
 | **`/api/data`** | `GET`   | REST API, returns JSON with example data  |
+| **`/api/users`** | `GET`   | Get list of users with pagination and filtering |
+| **`/api/users`** | `POST`   | Create a new user |
 | **Any other route** | `GET` | Returns 404 error |
 
 ## Example API response
