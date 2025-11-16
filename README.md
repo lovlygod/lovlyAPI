@@ -1,27 +1,48 @@
-<div align="center">
+<h1 align="center">⚡ lovlyAPI</h1>
 
-<h1 style="margin-top: 24px;">lovlyAPI</h1>
-
-<p style="font-size: 18px; margin-bottom: 24px;">
-  <b>Public Node.js server with simple REST API and web interface that demonstrates backend development skills and can be used by portfolio visitors.</b>
+<p align="center">
+  Lightweight, minimalistic and fast API engine built for rapid backend prototyping.<br>
+  Designed to help developers move from idea → working API in minutes.
 </p>
 
-[Report Bug](https://github.com/lovlygod/lovlyAPI/issues) · [Request Feature](https://github.com/lovlygod/lovlyAPI/issues)
+<p align="center">
+  <img src="https://img.shields.io/github/stars/lovlygod/lovlyAPI?style=for-the-badge" />
+  <img src="https://img.shields.io/github/forks/lovlygod/lovlyAPI?style=for-the-badge" />
+  <img src="https://img.shields.io/github/issues/lovlygod/lovlyAPI?style=for-the-badge" />
+  <img src="https://img.shields.io/github/license/lovlygod/lovlyAPI?style=for-the-badge" />
+</p>
 
-</div>
+---
+
+## 🚀 Why lovlyAPI?
+
+Most API frameworks are powerful — but too heavy for quick experiments.
+
+`lovlyAPI` focuses on:
+
+- ⚡ **Speed** — minimal overhead, fast startup  
+- 🧩 **Simplicity** — tiny codebase, clean structure  
+- 📦 **Minimalism** — only essentials, no bloat  
+- 🚀 **Rapid prototyping** — perfect for MVPs & small tools  
+- 🔧 **Developer tools** — built for people who love building APIs fast  
+
+If you want something between “Flask simplicity” and “FastAPI performance” — lovlyAPI is for you.
 
 ---
 
 ## ✨ Features
 
-- 🚀 **Node.js server** - implemented on Node.js using Express
-- 🌐 **Web interface** - main page with greeting and project information
-- 📡 **REST API** - provides JSON API to demonstrate backend development skills
-- 📄 **JSON API** - returns example data in JSON format
+- ⚡ Instant API creation
+- 🔌 Built-in routing system
+- 🧱 Minimalistic architecture
+- 📁 Clean project structure
+- 🧠 Easy to understand, easy to extend
+- 🔄 Async-ready (future update)
+- 🧪 Perfect for small tools, bots, microservices and API-driven scripts
 
-## 🚀 Quick Start
+---
 
-### 1. Installation
+## 📦 Installation
 
 ```bash
 git clone https://github.com/lovlygod/lovlyAPI.git
